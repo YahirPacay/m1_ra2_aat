@@ -47,7 +47,7 @@ class Indemnizacion {
     }
 
     public calcularAguinaldo() {
-        this.aguinaldo = (this.sueldo / 12 * this.allos + 5);
+        this.aguinaldo = (this.sueldo / 12 * this.allos + 33);
         return "" + this.aguinaldo.toFixed(2);
     }
 
